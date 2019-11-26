@@ -1,0 +1,15 @@
+
+State Machine - |ProjetoCPU2|estado_atual
+Name estado_atual.resultado estado_atual.jmp estado_atual.sync_grav estado_atual.movex estado_atual.movbe estado_atual.movae estado_atual.movbd estado_atual.movad estado_atual.executa estado_atual.busca estado_atual.reset2 estado_atual.reset1 
+estado_atual.reset1 0 0 0 0 0 0 0 0 0 0 0 0 
+estado_atual.reset2 0 0 0 0 0 0 0 0 0 0 1 1 
+estado_atual.busca 0 0 0 0 0 0 0 0 0 1 0 1 
+estado_atual.executa 0 0 0 0 0 0 0 0 1 0 0 1 
+estado_atual.movad 0 0 0 0 0 0 0 1 0 0 0 1 
+estado_atual.movbd 0 0 0 0 0 0 1 0 0 0 0 1 
+estado_atual.movae 0 0 0 0 0 1 0 0 0 0 0 1 
+estado_atual.movbe 0 0 0 0 1 0 0 0 0 0 0 1 
+estado_atual.movex 0 0 0 1 0 0 0 0 0 0 0 1 
+estado_atual.sync_grav 0 0 1 0 0 0 0 0 0 0 0 1 
+estado_atual.jmp 0 1 0 0 0 0 0 0 0 0 0 1 
+estado_atual.resultado 1 0 0 0 0 0 0 0 0 0 0 1 
